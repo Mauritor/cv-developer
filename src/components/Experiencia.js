@@ -75,7 +75,7 @@ const Experiencia = () => {
                     <p>Técnico reparación Telefonia</p>
                 </VerticalTimelineElement>
             </VerticalTimeline>
-
+            <hr className="mt-3 mx-5 bg-success"/>
         </Fragment>
 
     )

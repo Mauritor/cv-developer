@@ -9,12 +9,10 @@ const Formacion = () => {
                     <Col sm={12} className="text-center">
                         <Card border="primary" className="bg-primary" >
                             <Card.Body>
-                                <Card.Text>
-                                    <p className="text-light blockquote"> 
+                                <Card.Text className="text-light blockquote">
                                     Técnico Electrónico orientación en Comunicaciones<br />
                                     E.E.T. #1 Martín Miguel de Güemes<br /> 
                                     Longchamps 1993
-                                    </p>
                                 </Card.Text>
                             </Card.Body>
                         </Card>

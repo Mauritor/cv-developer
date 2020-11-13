@@ -4,6 +4,8 @@ import Acerca from './components/Acerca'
 import JumboAvatar from './components/JumboAvatar'
 import Formacion from './components/Formacion';
 import Footer from './components/Footer';
+import Aptitudes from './components/Aptitudes';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -16,8 +18,11 @@ function App() {
         <Formacion />
         <h4 className="text-success text-center mb-3">Experiencia Previa</h4>
         <Experiencia />
+        <h4 className="text-success text-center mb-3">Aptitudes</h4>
+        <Aptitudes />
+        <h4 className="text-success text-center mb-3">Conocimientos</h4>
+        <Skills />
         <Footer />
-        <h2 className="text-primary bg-primary text-center">space</h2>
       </div>
     </Fragment>
   );
