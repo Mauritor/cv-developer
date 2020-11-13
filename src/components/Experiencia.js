@@ -12,9 +12,9 @@ const Experiencia = () => {
             <VerticalTimeline>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: '#1d9719', color: '#fff' }}
-                    contentArrowStyle={{ borderRight: '7px solid  #1d9719' }}
-                    iconStyle={{ background: '#1d9719', color: '#fff' }}
+                    contentStyle={{ background: '#2C3E50', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+                    iconStyle={{ background: '#1E8E5F', color: '#fff' }}
                     icon={<FaNodeJs />}
                     date="2015 - present"
                 >
@@ -25,9 +25,9 @@ const Experiencia = () => {
 
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: '#9ff79c', color: '#1d9719' }}
-                    contentArrowStyle={{ borderRight: '7px solid  #9ff79c' }}
-                    iconStyle={{ background: '#9ff79c', color: '#1d9719' }}
+                    contentStyle={{ background: '#2C3E50', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+                    iconStyle={{ background: '#1E8E5F', color: '#fff' }}
                     icon={<FaNetworkWired />}
                     date="2009 - 2015"
                 >
@@ -38,9 +38,9 @@ const Experiencia = () => {
 
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: '#caf8c8', color: '#1d9719' }}
-                    contentArrowStyle={{ borderRight: '7px solid  #caf8c8' }}
-                    iconStyle={{ background: '#caf8c8', color: '#1d9719' }}
+                    contentStyle={{ background: '#2C3E50', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+                    iconStyle={{ background: '#1E8E5F', color: '#fff' }}
                     icon={<GiSpawnNode />}
                     date="2000 - 2010"
                 >
@@ -51,9 +51,9 @@ const Experiencia = () => {
 
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: '#e6f8e6', color: '#1d9719' }}
-                    contentArrowStyle={{ borderRight: '7px solid  #e6f8e6' }}
-                    iconStyle={{ background: '#e6f8e6', color: '#1d9719' }}
+                    contentStyle={{ background: '#2C3E50', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+                    iconStyle={{ background: '#1E8E5F', color: '#fff' }}
                     icon={<CgSmartphoneChip />}
                     date="1996 - 2000"
                 >
@@ -64,9 +64,9 @@ const Experiencia = () => {
 
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: '#e5e9e5', color: '#1d9719' }}
-                    contentArrowStyle={{ borderRight: '7px solid  #e5e9e5' }}
-                    iconStyle={{ background: '#e5e9e5', color: '#1d9719' }}
+                    contentStyle={{ background: '#2C3E50', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+                    iconStyle={{ background: '#1E8E5F', color: '#fff' }}
                     icon={<GiCandlestickPhone />}
                     date="1994 - 1996"
                 >
