@@ -15,7 +15,7 @@ const Skills = () => {
         <Fragment>
             <Container>
                 <Row>
-                    <Col sm={12} className="text-center" >
+                    <Col sm={{ span: 8, offset: 2 }} className="text-center" >
                         <TagCloud
                             style={{
                                 fontFamily: 'sans-serif',
