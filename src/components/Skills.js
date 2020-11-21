@@ -42,6 +42,7 @@ const Skills = () => {
                             <div style={{fontSize: 40, color: '#DD4B25'}}>HTML5</div>
                             <div style={{fontSize: 24, color: '#F7F7F7'}}>Cordova Apache</div>
                             <div style={{fontSize: 32, color: '#3FD9F5'}}>React-Bootstrap</div>
+                            <div style={{fontSize: 32, color: '#B84A43'}}>Next.js</div>
                             <div style={{fontSize: 30, color: '#F76A71'}}>Materialize</div>
                             <div style={{fontSize: 30, color: '#F7F7F7'}}>Font-Awesome</div>
                             <div style={{fontSize: 28, color: '#00B0FF'}}>Material-Ui</div>
