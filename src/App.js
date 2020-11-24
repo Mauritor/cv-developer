@@ -11,7 +11,7 @@ import ReactGa from 'react-ga'
 function App() {
   useEffect(() => {
     ReactGa.initialize('G-XXLE0EPLJ2')
-    ReactGa.pageview('/cv-developer')
+    ReactGa.pageview('/')
   }, [])
   return (
     <Fragment>
