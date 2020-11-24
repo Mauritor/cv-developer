@@ -6,13 +6,13 @@ import Formacion from './components/Formacion';
 import Footer from './components/Footer';
 import Aptitudes from './components/Aptitudes';
 import Skills from './components/Skills';
-import ReactGa from 'react-ga'
+//import ReactGa from 'react-ga'
 
 function App() {
-  useEffect(() => {
+  /*useEffect(() => {
     ReactGa.initialize('G-XXLE0EPLJ2')
     ReactGa.pageview('/')
-  }, [])
+  }, [])*/
   return (
     <Fragment>
       <div className="bg-primary">
