@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect } from 'react';
+import React, { Fragment } from 'react';
 import Experiencia from './components/Experiencia';
 import Acerca from './components/Acerca'
 import JumboAvatar from './components/JumboAvatar'
@@ -6,13 +6,14 @@ import Formacion from './components/Formacion';
 import Footer from './components/Footer';
 import Aptitudes from './components/Aptitudes';
 import Skills from './components/Skills';
-//import ReactGa from 'react-ga'
+import ReactGa from 'react-ga'
 
+const initializeAnalytics = () => { 
+  ReactGa.initialize("G-XXLE0EPLJ2")
+  ReactGa.pageview(window.location.pathname + window.location.search)
+}
 function App() {
-  /*useEffect(() => {
-    ReactGa.initialize('G-XXLE0EPLJ2')
-    ReactGa.pageview('/')
-  }, [])*/
+  initializeAnalytics();
   return (
     <Fragment>
       <div className="bg-primary">
