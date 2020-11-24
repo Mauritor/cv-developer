@@ -8,12 +8,13 @@ import Aptitudes from './components/Aptitudes';
 import Skills from './components/Skills';
 import ReactGa from 'react-ga'
 
-const initializeAnalytics = () => { 
+const gaInit = () => { 
   ReactGa.initialize("G-XXLE0EPLJ2")
-  ReactGa.pageview(window.location.pathname + window.location.search)
+  ReactGa.pageview('/')
+  //console.log(window.location.pathname + window.location.search);
 }
 function App() {
-  initializeAnalytics();
+  gaInit();
   return (
     <Fragment>
       <div className="bg-primary">
