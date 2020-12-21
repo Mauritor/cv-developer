@@ -5,12 +5,14 @@ import email from '../utils/img/social/email_128.png';
 import linkdin from '../utils/img/social/in_128.png';
 import github from '../utils/img/social/github_128.png';
 import web from '../utils/img/social/link_128.png';
+import torre from '../utils/img/social/torre.png';
 
 const mywhatsapp = 'https://wa.me/541158578759?text=Hola..';
 const mycorreo = 'mailto:mrtelefonia@gmail.com';
 const mylinkedin = 'https://www.linkedin.com/in/mauro-ragusi/';
 const mygithub = 'https://github.com/Mauritor';
 const myweb = 'https://darip.herokuapp.com/';
+const mytorre = 'https://bio.torre.co/mrtelefonia?view=recommend';
 const Footer = () => {
     return (
         <Fragment>
@@ -31,6 +33,9 @@ const Footer = () => {
                 </a>
                 <a href={myweb}>
                     <img src={web} className="mySocial img-thumbnail mx-2 " alt="web" />
+                </a>
+                <a href={mytorre}>
+                    <img src={torre} className="mySocial img-thumbnail mx-2 " alt="torre" />
                 </a>
             </Container>
         </Fragment>
