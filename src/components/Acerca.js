@@ -14,7 +14,7 @@ const Acerca = () => {
                                     La Calandria 1875 <br />
                                     Villa Adelina - San Isidro (Bs.As.)<br />
                                     17 Abril 1975<br />
-                                    <span className="text-info">+54 11 1558 8759</span>  <br />
+                                    <span className="text-info">+54 11 5857 8759</span>  <br />
                                     <span className="text-warning">mrtelefonia@gmail.com</span>
                                 </Card.Text>
                             </Card.Body>
