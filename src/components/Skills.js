@@ -26,17 +26,18 @@ const Skills = () => {
                             rotate={() => Math.round(Math.random()) * 90}
                             className="p-5"
                             >
-                            <div style={{ fontSize: 36, color: '#48CEF7' }}>Reactjs</div>
+                            <div style={{ fontSize: 38, color: '#48CEF7' }}>Reactjs</div>
                             <div style={{ fontSize: 48, color: '#7FC728' }}>Nodejs</div>
                             <div style={{ fontSize: 48, color: '#EFD81D' }}>Javascript</div>
                             <div style={{ fontSize: 26, color: '#00BB7C' }}>Vuejs</div>
-                            <div style={{ fontSize: 28, color: '#4D989F' }}>Express</div>
+                            <div style={{ fontSize: 36, color: '#4D989F' }}>Express</div>
+                            <div style={{ fontSize: 30, color: '#e00097' }}>Graphql</div>
                             <div style={{fontSize: 28, color: '#E84D31'}}>Git</div>
                             <div style={{fontSize: 26, color: '#1A1E22'}}>GitHub</div>
                             <div style={{fontSize: 36, color: '#569234'}}>Mongodb</div>
                             <div style={{fontSize: 24, color: '#002D4B'}}>Sqlite</div>
                             <div style={{fontSize: 34, color: '#F6BE00'}}>Firebase</div>
-                            <div style={{fontSize: 20, color: '#00B3E9'}}>JWT</div>
+                            <div style={{fontSize: 22, color: '#00B3E9'}}>JWT</div>
                             <div style={{fontSize: 42, color: '#533B78'}}>Bootstrap</div>
                             <div style={{fontSize: 24, color: '#254BDD'}}>Css</div>
                             <div style={{fontSize: 40, color: '#DD4B25'}}>HTML5</div>
