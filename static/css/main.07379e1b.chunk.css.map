@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAGA,0BAFI,mBAKJ,CAHA,UACI,UAEJ,CACA,SACI,UAAW,CACX,WAAY,CACZ,cACJ","file":"main.07379e1b.chunk.css","sourcesContent":[".avatar-rounded{\n    border-radius: 100px;\n}\n.mySocial{\n    width: 56px;\n    border-radius: 100px;\n}\n.imgLogo{\n    width: 22px;\n    height: 22px;\n    margin-top: 8px;\n}"]}
