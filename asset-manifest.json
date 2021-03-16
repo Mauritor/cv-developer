@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/cv-developer/static/css/main.4ef860c7.chunk.css",
-    "main.js": "/cv-developer/static/js/main.689ba3e8.chunk.js",
-    "main.js.map": "/cv-developer/static/js/main.689ba3e8.chunk.js.map",
+    "main.css": "/cv-developer/static/css/main.07145d7b.chunk.css",
+    "main.js": "/cv-developer/static/js/main.99d967fd.chunk.js",
+    "main.js.map": "/cv-developer/static/js/main.99d967fd.chunk.js.map",
     "runtime-main.js": "/cv-developer/static/js/runtime-main.8eda7a30.js",
     "runtime-main.js.map": "/cv-developer/static/js/runtime-main.8eda7a30.js.map",
     "static/css/2.2aa38b9c.chunk.css": "/cv-developer/static/css/2.2aa38b9c.chunk.css",
-    "static/js/2.616f7134.chunk.js": "/cv-developer/static/js/2.616f7134.chunk.js",
-    "static/js/2.616f7134.chunk.js.map": "/cv-developer/static/js/2.616f7134.chunk.js.map",
+    "static/js/2.a608659b.chunk.js": "/cv-developer/static/js/2.a608659b.chunk.js",
+    "static/js/2.a608659b.chunk.js.map": "/cv-developer/static/js/2.a608659b.chunk.js.map",
     "index.html": "/cv-developer/index.html",
     "static/css/2.2aa38b9c.chunk.css.map": "/cv-developer/static/css/2.2aa38b9c.chunk.css.map",
-    "static/css/main.4ef860c7.chunk.css.map": "/cv-developer/static/css/main.4ef860c7.chunk.css.map",
-    "static/js/2.616f7134.chunk.js.LICENSE.txt": "/cv-developer/static/js/2.616f7134.chunk.js.LICENSE.txt",
+    "static/css/main.07145d7b.chunk.css.map": "/cv-developer/static/css/main.07145d7b.chunk.css.map",
+    "static/js/2.a608659b.chunk.js.LICENSE.txt": "/cv-developer/static/js/2.a608659b.chunk.js.LICENSE.txt",
     "static/media/in_128.11adc7dd.png": "/cv-developer/static/media/in_128.11adc7dd.png",
     "static/media/link_128.f93b7c82.png": "/cv-developer/static/media/link_128.f93b7c82.png",
+    "static/media/logoMin.bf8502c9.png": "/cv-developer/static/media/logoMin.bf8502c9.png",
     "static/media/mau_300x300.eba6dbc6.png": "/cv-developer/static/media/mau_300x300.eba6dbc6.png",
     "static/media/pdf_file.b7440d8a.png": "/cv-developer/static/media/pdf_file.b7440d8a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8eda7a30.js",
     "static/css/2.2aa38b9c.chunk.css",
-    "static/js/2.616f7134.chunk.js",
-    "static/css/main.4ef860c7.chunk.css",
-    "static/js/main.689ba3e8.chunk.js"
+    "static/js/2.a608659b.chunk.js",
+    "static/css/main.07145d7b.chunk.css",
+    "static/js/main.99d967fd.chunk.js"
   ]
 }
