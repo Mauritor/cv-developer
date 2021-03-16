@@ -2,7 +2,8 @@ import React, { Fragment } from 'react'
 import { GiCandlestickPhone, GiSpawnNode } from 'react-icons/gi';
 import { CgSmartphoneChip } from 'react-icons/cg'
 import { FaNetworkWired, FaNodeJs } from 'react-icons/fa';
-import sacoa from '../utils/img/social/logoMin.png'
+import sacoa from '../utils/img/social/logoMin.png';
+import darip from '../utils/img/social/darip-256.png';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
@@ -19,10 +20,13 @@ const Experiencia = () => {
                     icon={<FaNodeJs />}
                     date="2021 - present"
                 >
-                    <h3 className="vertical-timeline-element-title">Desarrollador</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Managment Company</h4>
-                    <span><h4 className="vertical-timeline-element-subtitle">Sacoa Playcard <img src={sacoa} alt="sacoaLogo" className="imgLogo" /></h4></span>
-                    <p>Nodejs</p>
+                    <span className="d-flex justify-content-around">
+                        <img src={sacoa} alt="sacoaLogo" className="imgLogo" />
+                        <h3 className="vertical-timeline-element-subtitle">Managment Company</h3>
+                    </span>
+                    <h5 className="vertical-timeline-element-subtitle text-center">
+                        Sacoa Playcard </h5>
+                    <p className="text-center">Nodejs</p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
@@ -32,9 +36,12 @@ const Experiencia = () => {
                     icon={<FaNodeJs />}
                     date="2015 - 2020"
                 >
-                    <h3 className="vertical-timeline-element-title">Desarrollador</h3>
-                    <h4 className="vertical-timeline-element-subtitle">DarIp Soluciones</h4>
-                    <p>Nodejs, Javascript, Reactjs, Vuejs</p>
+                    <span className="d-flex justify-content-around">
+                        <h3 className="vertical-timeline-element-subtitle">DarIp - Soluciones</h3>
+                        <img src={darip} alt="sacoaLogo" className="imgLogo" />
+                    </span>
+                    <h5 className="vertical-timeline-element-title text-center">Desarrollador</h5>
+                    <p className="text-center">Nodejs, Javascript, Reactjs, Vuejs</p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement
