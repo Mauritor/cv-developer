@@ -1,7 +1,8 @@
 import React, { Fragment } from 'react'
 import { GiCandlestickPhone, GiSpawnNode } from 'react-icons/gi';
 import { CgSmartphoneChip } from 'react-icons/cg'
-import { FaNetworkWired, FaNodeJs } from 'react-icons/fa'
+import { FaNetworkWired, FaNodeJs } from 'react-icons/fa';
+import sacoa from '../utils/img/social/logoMin.png'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
@@ -16,7 +17,20 @@ const Experiencia = () => {
                     contentArrowStyle={{ borderRight: '7px solid  #fff' }}
                     iconStyle={{ background: '#1E8E5F', color: '#fff' }}
                     icon={<FaNodeJs />}
-                    date="2015 - present"
+                    date="2021 - present"
+                >
+                    <h3 className="vertical-timeline-element-title">Desarrollador</h3>
+                    <h4 className="vertical-timeline-element-subtitle">Managment Company</h4>
+                    <span><h4 className="vertical-timeline-element-subtitle">Sacoa Playcard <img src={sacoa} alt="sacoaLogo" className="imgLogo" /></h4></span>
+                    <p>Nodejs</p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: '#2C3E50', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+                    iconStyle={{ background: '#1E8E5F', color: '#fff' }}
+                    icon={<FaNodeJs />}
+                    date="2015 - 2020"
                 >
                     <h3 className="vertical-timeline-element-title">Desarrollador</h3>
                     <h4 className="vertical-timeline-element-subtitle">DarIp Soluciones</h4>
@@ -75,7 +89,7 @@ const Experiencia = () => {
                     <p>Técnico reparación Telefonia</p>
                 </VerticalTimelineElement>
             </VerticalTimeline>
-            <hr className="mt-3 mx-5 bg-success"/>
+            <hr className="mt-3 mx-5 bg-success" />
         </Fragment>
 
     )
