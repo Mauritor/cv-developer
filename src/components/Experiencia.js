@@ -20,13 +20,13 @@ const Experiencia = () => {
                     icon={<FaNodeJs />}
                     date="2021 - present"
                 >
-                    <span className="d-flex justify-content-around">
+                    <div className="text-center">
                         <img src={sacoa} alt="sacoaLogo" className="imgLogo" />
-                        <h3 className="vertical-timeline-element-subtitle">Managment Company</h3>
-                    </span>
-                    <h5 className="vertical-timeline-element-subtitle text-center">
-                        Sacoa Playcard </h5>
-                    <p className="text-center">Nodejs</p>
+                        <h3 className="vertical-timeline-element-subtitle">Managament Company</h3>
+                        <h5 className="vertical-timeline-element-subtitle">
+                            Sacoa Playcard </h5>
+                        <p>Nodejs</p>
+                    </div>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
@@ -36,12 +36,12 @@ const Experiencia = () => {
                     icon={<FaNodeJs />}
                     date="2015 - 2020"
                 >
-                    <span className="d-flex justify-content-around">
-                        <h3 className="vertical-timeline-element-subtitle">DarIp - Soluciones</h3>
+                    <div className="text-center">
                         <img src={darip} alt="sacoaLogo" className="imgLogo" />
-                    </span>
-                    <h5 className="vertical-timeline-element-title text-center">Desarrollador</h5>
-                    <p className="text-center">Nodejs, Javascript, Reactjs, Vuejs</p>
+                        <h3 className="vertical-timeline-element-subtitle">DarIp - Soluciones</h3>
+                        <h5 className="vertical-timeline-element-title">Desarrollador</h5>
+                        <p>Nodejs, Javascript, Reactjs, Vuejs</p>
+                    </div>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement
